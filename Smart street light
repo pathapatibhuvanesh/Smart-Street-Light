@@ -1,0 +1,22 @@
+int ldr=7;
+int x;
+int led=13;
+void setup()
+{
+Serial.begin(9600);
+pinMode(7,INPUT);
+pin Mode(13,OUTPUT);
+}
+Void loop()
+{ 
+x=digitalRead(7);
+serial.println(x);
+if(x==HIGH)
+{
+DigitalWrite(13,HIGH);
+}
+If(x==LOW)
+{
+digitalWrite(13,LOW);
+}
+}
